@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/article"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_article"
+        android:layout_margin="10dp"
+        android:text="@string/prix"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_devise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_article"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/tv_prix"
+        android:text="@string/devise"
+        />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_prix"
+        android:layout_margin="10dp"
+        android:text="@string/decription"
+        />
+
+    <RatingBar
+        android:id="@+id/rt_article"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_article"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:rating="4"
+        />
+
+        <ImageButton
+            android:id="@+id/btn_terre"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="40dp"
+            android:src="@drawable/internet_512"
+            />
+
+    <ToggleButton
+        android:id="@+id/btn_achat"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:textOff="@string/pas_achat"
+        android:textOn="@string/achat"
+        />
+
+
+
+</RelativeLayout>
