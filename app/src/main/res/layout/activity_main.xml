@@ -64,6 +64,7 @@
             android:layout_alignParentBottom="true"
             android:layout_margin="40dp"
             android:src="@drawable/internet_512"
+            android:onClick="showURL"
             />
 
     <ToggleButton

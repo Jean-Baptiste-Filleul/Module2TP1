@@ -5,5 +5,5 @@
     <string name="devise">€</string>
     <string name="decription">Une viennoiserie au beurre et au chocolat</string>
     <string name="achat">Acheté</string>
-    <string name="pas_achat">Pas acheté</string>
+    <string name="pas_achat">A acheter</string>
 </resources>
